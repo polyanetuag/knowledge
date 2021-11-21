@@ -53,9 +53,19 @@ module.exports = (app) => {
     app
       .db("users")
       .select("id", "name", "email", "admin")
-      .then((users) => res.json(users));
-    (catch9err) => res.status(500).send(err);
+      .then((users) => res.json(users))
+      .catch((err) => res.status(500).send(err));
   };
 
-  return { save, get };
+  const getById = (req, res) => {
+    app
+      .db("users")
+      .select("id", "name", "email", "admin")
+      .where({ id: req.params.id })
+      .first()
+      .then((user) => res.json(user))
+      .catch((err) => res.status(500).send(err));
+  };
+
+  return { save, get, getById };
 };

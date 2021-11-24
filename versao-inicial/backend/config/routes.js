@@ -26,4 +26,9 @@ module.exports = (app) => {
     .delete(app.api.article.remove);
 
   app.route("/categories/:id/articles").get(app.api.article.getByCategory);
+
+  //validação
+  app.post("/signup", app.api.user.save);
+  app.post("/signin", app.api.auth.signin);
+  app.post("/validateToken", app.api.auth.validateToken);
 };

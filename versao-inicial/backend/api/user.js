@@ -12,6 +12,11 @@ module.exports = (app) => {
     const user = { ...res.body };
     if (req.params.id) user, (id = req.params.id);
 
+    //validando usuário admin
+    if (!req.originalUrl.startsWith("/users")) user.admin = false;
+
+    if (!req.user || !req.user.admin) user.admin = false;
+
     try {
       existsOrError(user.name, "Nome não informado");
       existsOrError(user.email, "Email não informado");

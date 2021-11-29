@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<Content />
-		<Header />
+		<Header title='Cod3r - Base de conhecimento' :hideToggle='false' />
 		<Menu />
 		<Footer />
 	</div>

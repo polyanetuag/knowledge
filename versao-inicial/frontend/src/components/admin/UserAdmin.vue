@@ -29,13 +29,19 @@
           </b-form-group>
         </b-col>
       </b-row>
+
+      <b-button variant="primary" v-if="mode === 'save'" @click="save">Salvar</b-button>
+      <b-button variant="danger" v-if="mode === 'remove'" @click="remove">Excluir</b-button>
+      <b-button class="ml-2" @click="reset">Cancelar</b-button>
+
     </b-form>
+    <hr>
     <b-table hover striped :items='users' :fields="fields"></b-table>
   </div>
 </template>
 
 <script>
-import { baseApiUrl } from '@/global' 
+import { baseApiUrl, showError } from '@/global' 
 import axios from 'axios'
 
 export default {
@@ -60,6 +66,29 @@ export default {
       axios.get(url).then(res => {
         this.users = res.data
       })
+    },
+    reset() {
+      this.mode = 'save',
+      this.user = {},
+      this.loadUsers()
+    },
+    save() {
+      const method = this.user.id ? 'put' : 'post'
+      const id = this.user.id ? `/${this.user.id}` : ''
+      axios[method](`${baseApiUrl}/users${id}`, this.user)
+        .then(() => {
+          this.$toasted.global.defaultSuccess()
+          this.reset()
+        })
+        .catch(showError)
+    },
+    remove() {
+      const id = this.user.idaxios.delete(`${baseApiUrl}/users/${id}`)
+        .then(() => {
+          this.$toasted.global.defaultSuccess()
+          this.reset()
+        })
+        .catch(showError)
     }
   },
   mounted() {

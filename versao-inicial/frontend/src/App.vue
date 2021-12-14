@@ -4,6 +4,8 @@
 		<Header title='Cod3r - Base de conhecimento' :hideToggle='!user'
 		:hideUserDropdown='!user' />
 		<Menu v-if="user" />
+		<Loading v-if="validatingToken" />
+		<Content v-else />
 		<Footer />
 	</div>
 </template>
@@ -16,10 +18,11 @@ import Content from './components/template/Content'
 import Header from './components/template/Header'
 import Menu from './components/template/Menu'
 import Footer from './components/template/Footer'
+import Loading from '@/components/template/Loading'
 
 export default {
 	name: "App",
-	components: { Content, Header, Menu, Footer},
+	components: { Content, Header, Menu, Footer, Loading },
 	computed: mapState(['isMenuVisible', 'user']),
 	data: function() {
 		return {
@@ -29,6 +32,7 @@ export default {
 	methods: {
 		async validateToken() {
 			this.validatingToken = true
+			// eslint-disable-next-line no-undef
 			const userData = JSON.parse(json)
 			this.$store.commit('setUser', null)
 

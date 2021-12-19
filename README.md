@@ -4,8 +4,7 @@
 
 ## 📚 Sobre
 
-O projeto consiste em uma interface de categorias e subcategorias de arquivos adicionados na plataforma, como também o cadastro de usuários.
-
+O projeto consiste em uma interface de categorias e subcategorias de arquivos que poderão ser adicionados na plataforma, como também o cadastro de usuários.
 
 ## 🚀 Tecnologias utilizadas:
 

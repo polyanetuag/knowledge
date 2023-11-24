@@ -1,5 +1,5 @@
 <h1 align="center">  
-  knowledge
+  Knowledge - Plataforma de gerenciamento de arquivos
 </h1>
 
 ## 📚 Sobre

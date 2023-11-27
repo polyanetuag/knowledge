@@ -5,6 +5,7 @@
 ## 📚 Sobre
 
 O projeto consiste em uma interface com categorias e subcategorias de arquivos que poderão ser adicionados na plataforma. 
+
 Possui uma aba para cadastro de usuários, contendo as regras de administração.
 
 ## 🚀 Tecnologias utilizadas:

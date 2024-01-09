@@ -1,5 +1,5 @@
 <h1 align="center">  
-  Knowledge 🗂 <br/> Gerenciamento de arquivos
+  Knowledge 🗂 <br/> Gerenciador de arquivos
 </h1>
 
 ## 📚 Sobre

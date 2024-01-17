@@ -6,7 +6,7 @@
 
 O projeto consiste em uma interface que lista as categorias e subcategorias de arquivos que poderão ser gerenciados pelo usuário na plataforma. 
 
-Possui uma aba para cadastro de usuários (CRUD), contendo as regras conforme o nível de administração da plataforma.
+Possui uma aba para cadastro de usuários (CRUD), contendo as regras conforme o nível de administração permitido na plataforma.
 
 ## 🚀 Tecnologias utilizadas:
 

@@ -4,7 +4,7 @@
 
 ## 📚 Sobre
 
-O projeto consiste em uma interface que lista categorias e subcategorias de arquivos que poderão ser gerenciados pelo usuário na plataforma. 
+O projeto consiste em uma interface que lista categorias e subcategorias de arquivos que poderão ser gerenciados pelo usuário na aplicação. 
 
 Possui uma aba para cadastro de usuários (CRUD), contendo as regras conforme o nível de administração permitido na plataforma.
 

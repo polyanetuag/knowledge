@@ -12,7 +12,7 @@ Possui uma aba para cadastro de usuários (**CRUD**), contendo as regras conform
 
 - VueJS
 - axios
-- node
+- Node
 - express
 - mongoose
 - jwt

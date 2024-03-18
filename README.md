@@ -13,7 +13,7 @@ Possui uma aba para cadastro de usuários (**CRUD**), contendo as regras de acor
 - VueJS
 - Axios
 - Node
-- express
+- Express
 - mongoose
 - jwt
 

@@ -11,7 +11,7 @@ Possui uma aba para cadastro de usuários (**CRUD**), contendo as regras de acor
 ## 🚀 Tecnologias utilizadas:
 
 - VueJS
-- axios
+- Axios
 - Node
 - express
 - mongoose

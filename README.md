@@ -15,7 +15,7 @@ Possui uma aba para cadastro de usuários, contendo regras conforme o nível de 
 - Node
 - Express
 - Mongoose
-- jwt
+- Jwt
 
 ## ⏱ Como executar
 

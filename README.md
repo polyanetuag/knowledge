@@ -10,8 +10,8 @@ Possui uma aba para cadastro de usuários, contendo as regras conforme o nível 
 
 ## 🚀 Tecnologias utilizadas:
 
-- VueJS
-- Axios
+- [VueJS](https://vuejs.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 - Node
 - Express
 - Mongoose

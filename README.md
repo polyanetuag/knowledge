@@ -14,7 +14,7 @@ Possui uma aba para cadastro de usuários, contendo as regras conforme o nível 
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Node](https://nodejs.org/pt)
 - [Express](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introduction)
-- Mongoose
+- [Mongoose](https://mongoosejs.com/docs/)
 - Jwt
 
 ## ⏱ Como executar

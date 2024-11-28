@@ -13,7 +13,7 @@ Possui uma aba para cadastro de usuários, contendo as regras conforme o nível 
 - [VueJS](https://vuejs.org/)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Node](https://nodejs.org/pt)
-- Express
+- [Express](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introduction)
 - Mongoose
 - Jwt
 

@@ -15,7 +15,7 @@ Possui uma aba para cadastro de usuários, contendo as regras conforme o nível 
 - [Node](https://nodejs.org/pt)
 - [Express](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introduction)
 - [Mongoose](https://mongoosejs.com/docs/)
-- Jwt
+- [Jwt](https://www.npmjs.com/package/jsonwebtoken)
 
 ## ⏱ Como executar
 

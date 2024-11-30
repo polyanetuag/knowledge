@@ -4,7 +4,7 @@
 
 ## 📚 Sobre
 
-O projeto **Knowledge** é uma interface que lista categorias e subcategorias de arquivos que podem ser gerenciados pelo usuário na aplicação. 
+O projeto ***Knowledge*** é uma interface que lista categorias e subcategorias de arquivos que podem ser gerenciados pelo usuário na aplicação. 
 
 Possui uma aba para cadastro de usuários, contendo as regras conforme o nível de permissão que o usuário possui dentro da plataforma.
 

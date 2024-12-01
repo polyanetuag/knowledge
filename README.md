@@ -23,6 +23,7 @@ Possui uma aba para cadastro de usuários, contendo as regras conforme o nível 
 # Clonar o repositório
 $ git clone https://github.com/polyanetuag/knowledge.git
 
+// PARA O BACKEND(servidor)
 # Entrar na pasta backend
 $ cd backend
 

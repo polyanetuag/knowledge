@@ -33,6 +33,7 @@ $ yarn
 # Iniciar o servidor
 $ yarn start
 
+// PARA O FRONTEND
 # Entrar na pasta frontend
 $ cd frontend
 
